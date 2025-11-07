@@ -1,4 +1,4 @@
-export default function String({r,n,step}){ //n=釘の本数、step=ステップ
+export default function String({r,n,step}:any){ //n=釘の本数、step=ステップ
 
     const lines = [];
     const b = Math.floor(n/2);
